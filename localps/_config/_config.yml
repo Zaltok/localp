@@ -1,0 +1,6 @@
+Group:
+  extensions:
+    - LocalPGroupExtension
+Member:
+  extensions:
+    - LocalPMemberExtension
