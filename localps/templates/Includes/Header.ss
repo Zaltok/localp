@@ -29,9 +29,11 @@
             <a href="dashboard.html" class="brand"><i class="icon-leaf">$SiteConfig.Title</i></a>
 
                 <ul class="nav pull-right">
+                    <% if $CurrentMember %>
                     <li>
                         <a href="/Security/logout?BackURL=%2FSecurity%2Flogin">Logout</a>
                     </li>
+                    <% end_if %>
 
                 </ul>
             </div>

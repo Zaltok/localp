@@ -4,3 +4,6 @@ Group:
 Member:
   extensions:
     - LocalPMemberExtension
+Page:
+  extensions:
+    - LocalPPageExtension
